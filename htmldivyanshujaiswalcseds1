@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>October 2025 Calendar</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+    }
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+      text-align: center;
+    }
+    .nested-table td {
+      padding: 5px;
+      font-size: 12px;
+    }
+    .weekend {
+      background-color: #f0f8ff;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>October 2025 Calendar</h1>
+  <table>
+    <tr>
+      <th colspan="7">October 2025</th>
+    </tr>
+    <tr>
+      <th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th>
+    </tr>
+    <tr>
+      <td colspan="3"></td><td>1</td><td>2</td><td>3</td>
+      <td class="weekend">
+        <table class="nested-table">
+          <tr><td>4</td></tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class="weekend">
+        <table class="nested-table">
+          <tr><td>5</td></tr>
+        </table>
+      </td>
+      <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td>
+      <td class="weekend">
+        <table class="nested-table">
+          <tr><td>11</td></tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      
+      </td>
